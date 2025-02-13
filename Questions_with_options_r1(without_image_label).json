@@ -1,0 +1,30 @@
+{ "c2array":true, "size":[26,5,1],"data":
+  [
+  [[0], ["Enter your E-mail id."], ["short-text"], [""], ["E-mail id"]],     
+  [[1], ["What is your age group?"], ["dropdown"], ["18-24 years (Gen-Z)|25-34 years (Millennials)|35-44 years (Millennials)|45-54 years (Gen-X)|55-64 years (Boomers)|65+ years (Boomers)"], [""]],     
+  [[2], ["Which gender do you identify yourself with?"], ["single-choice"], ["Female|Male|Prefer not to disclose"], [""]],     
+  [[3], ["In which city are you located?"], ["short-text"], [""], ["Enter your city"]],     
+  [[4], ["What is your role in an interior design project/decision making?"], ["single-choice"], ["Homeowner|Tenant/Renter|Interior Designer/Architect|Real Estate professional"], [""]],     
+  [[5], ["What type of space are you mostly involved with?"], ["single-choice"], ["Residential|Commercial (Office, Shops)|Hospitality (Hotel, Restaurant)"], [""]],     
+  [[6], ["Where do you usually shop for interior products/services?"], ["single-choice"], ["Online marketplaces|Local stores/markets|Brand showrooms|Custom-made/artisan products|Other"], [""]],     
+  [[7], ["How often do you buy something for your space (Décor products)?"], ["single-choice"], ["Once a month|Every 6 months|Every 2-3 years|Rarely"], [""]],     
+  [[8], ["How often do you upgrade or redesign the interiors of your space?"], ["single-choice"], ["Once a year|Every 3-5 years|Every 5-10 years|Rarely"], [""]],     
+  [[9], ["What triggers you to make a purchase?"], ["multi-choice"], ["Redecorating or renovating a space|Moving to a new space|Seasonal or festive updates|Impulse buying|Other"], [""]],     
+  [[10], ["What matters most when purchasing interior products?"], ["multi-choice"], ["Quality and durability|Price / Value for money|Design / aesthetics|Environmental impact|Ease of maintenance|Brand reputation|Other"], [""]],     
+  [[11], ["Would you pay more for products that are:"], ["single-choice"], ["Custom-made or unique|Eco-friendly or sustainable|High-quality and long-lasting|Luxurious and branded|Other"], [""]],     
+  [[12], ["Do you prefer experimenting with design trends or sticking to classic styles?"], ["single-choice"], ["Experimenting with trends|Sticking to classics|A mix of both"], [""]],     
+  [[13], ["How do you typically find inspiration for your interior design or purchases?"], ["multi-choice"], ["Social media (e.g., Instagram, Pinterest)|Blogs and websites|Recommendations from friends or professionals|Showrooms or markets|Online marketplaces|Other"], [""]],     
+  [[14], ["Are you more likely to buy interior products?"], ["single-choice"], ["Online|In-store|Depends on the product"], [""]],     
+  [[15], ["What type of products would you prefer purchasing online?"], ["multi-choice"], ["Furniture|Art pieces/Accessories|Lighting fixtures|Furnishings (Bedsheets, Curtains, Rugs)|Bathroom fittings|Other"], [""]],     
+  [[16], ["What type of services would you prefer finalizing online?"], ["multi-choice"], ["Wall paint / Wall art|Modular kitchen|Wardrobe / other carpentry|Flooring|Other"], [""]],    
+  [[17], ["Are there any specific interior products/services that you’ve struggled to find online?"], ["long-text"], [""], ["Describe your experience"]],     
+  [[18], ["What are the challenges you have faced while selecting interior products/services?"], ["multi-choice"], ["Finding the right size|Ensuring compatibility with existing decor|Product availability|Difficulty visualizing the product in my space|Lack of variety under one roof|Budget constraints|Lack of trustworthy reviews|Delivery or installation issues|Quality of the product"], [""]],     
+  [[19], ["Can you describe a frustrating experience you’ve had while shopping?"], ["long-text"], [""], ["Describe your experience in detail"]],     
+  [[20], ["Have you used any tools/apps to assist in interior design decisions?"], ["single-choice"], ["Yes|No"], [""]],     
+  [[21], ["Can you name the tool and what did you like or dislike about these tools?"], ["long-text"], [""], ["Name of the tool and their feedback"]],    
+  [[22], ["How do you feel about using technology (e.g., apps, 3D visualization tools) for interior design?"], ["slider"], ["Not Comfortable|1|Very Comfortable"], [""]],     
+  [[23], ["Would you find it helpful to visualize how a product would look in your space before purchasing?"], ["single-choice"], ["Yes|No|Maybe"], [""]],     
+  [[24], ["What features would you like in a platform for selecting interior products/services?"], ["multi-choice"], ["Interior design visualization (AR/3D)|Suggesting products compatible with the room’s style|Quality ratings of products|Price comparison across brands|Access to niche or sustainable products|Other"], [""]],     
+  [[25], ["Any additional comments or suggestions to improve the interior design experience?"], ["long-text"], [""], ["Share your feedback or ideas"]] 
+  ]
+}

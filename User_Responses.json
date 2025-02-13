@@ -1,0 +1,307 @@
+{
+    "c2array": true,
+    "size": [
+        27,
+        3,
+        1
+    ],
+    "data": [
+        [
+            [
+                0
+            ],
+            [
+                "Enter your E-mail id."
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                1
+            ],
+            [
+                "What is your age group?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                2
+            ],
+            [
+                "Which gender do you identify yourself with?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                3
+            ],
+            [
+                "In which city are you located?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                4
+            ],
+            [
+                "What is your role in an interior design project/decision making?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                5
+            ],
+            [
+                "What type of space are you mostly involved with?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                6
+            ],
+            [
+                "Where do you usually shop for interior products/services?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                7
+            ],
+            [
+                "How often do you buy something for your space (Décor products)?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                8
+            ],
+            [
+                "How often do you upgrade or redesign the interiors of your space?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                9
+            ],
+            [
+                "What triggers you to make a purchase?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                10
+            ],
+            [
+                "What matters most when purchasing interior products?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                11
+            ],
+            [
+                "Would you pay more for products that are:"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                12
+            ],
+            [
+                "Do you prefer experimenting with design trends or sticking to classic styles?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                13
+            ],
+            [
+                "How do you typically find inspiration for your interior design or purchases?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                14
+            ],
+            [
+                "Are you more likely to buy interior products?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                15
+            ],
+            [
+                "What type of products would you prefer purchasing online?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                16
+            ],
+            [
+                "What type of services would you prefer finalizing online?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                17
+            ],
+            [
+                "Are there any specific interior products/services that you’ve struggled to find online?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                18
+            ],
+            [
+                "What are the challenges you have faced while selecting interior products/services?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                19
+            ],
+            [
+                "Can you describe a frustrating experience you’ve had while shopping?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                20
+            ],
+            [
+                "Have you used any tools/apps to assist in interior design decisions?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                21
+            ],
+            [
+                "Can you name the tool and what did you like or dislike about these tools?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                22
+            ],
+            [
+                "How do you feel about using technology (e.g., apps, 3D visualization tools) for interior design?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                23
+            ],
+            [
+                "Would you find it helpful to visualize how a product would look in your space before purchasing?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                24
+            ],
+            [
+                "What features would you like in a platform for selecting interior products/services?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                25
+            ],
+            [
+                "Any additional comments or suggestions to improve the interior design experience?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}

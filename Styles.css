@@ -1,0 +1,292 @@
+/* 60% Dominant Color: Neutral tones for backgrounds */
+body {
+  background-color: #fdf8f9; /* Neutral background for layouts */
+  color: #081901; /* Dark text for readability */
+  font-family: "Poppins", sans-serif; /* Clean, modern font */
+}
+
+/* Buttons (Option1, Next, Submit) */
+/* Default Button Style */
+/* Ensure buttons adapt dynamically */
+#OB1, #Option1, .option-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	color: #000000;
+    padding: 20px;
+    width: auto; /* Adjusts width based on content */
+    min-width: 80px; /* Prevents the box from shrinking too much */
+    max-width: 500px; /* Keeps it responsive without overflowing */
+    height: auto; /* Allows height to adjust based on text */
+    min-height: 50px; /* Ensures buttons don’t get too small */
+    max-height: 300px; /* Prevents excessively large boxes */
+    font-size: min(max(12px, 1vw), 50px); /* Dynamic font sizing */
+    word-wrap: break-word;
+    white-space: normal; /* Wrap text when needed */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid #5272ff;
+    background-color: #7ed958;
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+
+#Prompt, .prompt-text {
+    font-size: calc(1.5vw + 1vh); /* Scales dynamically */
+    line-height: 1.4;
+}
+#EB {
+background-color: red;
+color: #ffffff;
+font-size: min(max(12px, 1vw), 50px);
+display: flex;
+justify-content: center; /* Centers text horizontally */
+align-items: center; /* Centers text vertically */
+  vertical-align: middle;
+  height: 100%;
+
+
+
+}
+
+#NB1, #NB2, #SB1, #SBU, #STB1, #STB, #CB2, #FSB {
+  display: flex;
+  background-color: #5272ff; /* Blue */
+  color: #ffffff;
+  border: 2px solid #ff9d00; /* Orange border */
+  text-align: center;
+  font-size: min(max(12px, 1vw), 50px);
+  padding: 10px 10px;
+  border-radius: 8px;
+  
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  vertical-align: middle;
+  
+  width: auto; 
+  justify-content: center; /* Horizontally center text */
+  align-items: center; /* Vertically center text */
+  height: auto; /* Prevent forced height */
+  min-height: 30px; /* Ensures it doesn't shrink too much */
+  max-height: 80px; /* Prevents excessively large buttons */
+  padding: 10px 20px;
+  text-align: center;
+  line-height: normal; /* Prevents excessive line spacing */
+  white-space: nowrap; /* Ensures text stays in one line */
+  
+}
+
+/* Hover State for Buttons */
+#OB1:hover, #NB1:hover,#NB2:hover, #SB1:hover, #SBU:hover, #STB1:hover, #STB:hover, #CB2: HOVER {
+  background-color: #f73c5c; /* Accent red */
+  color: #ffffff;
+  border-color: #ff9d00; /* Accent orange */
+  transform: scale(1.05); /* Slight scale effect */
+  font-size: min(max(12px, 1vw), 50px);
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  text-align: center;
+  white-space: normal; /* Allows wrapping */
+  overflow-wrap: break-word; /* Ensures text does not overflow */
+  vertical-align: middle;
+  height: 100%;
+
+
+}
+
+/* Active State for Buttons */
+#OB1:active, #NB1:active,#NB2:active, #SB1:active, #SBU:active, , #STB1:active, , #STB:ACTIVE, #CB2:active {
+  background-color: #ff9d00;
+  color: #ffffff;
+  font-size: min(max(12px, 1vw), 50px);
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  border-color: #bd1935; /* Bold accent */
+  vertical-align: middle;
+  height: 100%;
+  line-height: 1.4;
+
+}
+#DD1 {
+  background-color: #f0f2f8; /* Neutral blue */
+  border: 2px solid #7ed958; /* Green border */
+  color: #081901; /* Dark text */
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#OB1.selected {
+  background-color: #f73c5c !important; /* Highlighted color */
+  color: #ffffff !important;
+    vertical-align: middle;
+  height: 100%;
+
+}
+
+/* Checkboxes */
+#CB1, .checkbox {
+    padding: 10px ; /* Add padding inside checkboxes */
+    margin: 8px; /* Add spacing between checkbox elements */
+    display: flex;
+    align-items: center; 
+    font-size: min(max(12px, 0.8vw), 50px); /* Adjusts dynamically */
+    line-height: 1.4;
+    word-wrap: break-word; /* Ensure long text wraps */
+}
+
+
+
+/* Hover State for Checkbox */
+#CB1:hover {
+  background-color: #a3f481; /* Lighter green for hover */
+  border-color: #f73c5c; /* Accent red */
+      margin-left: 10px;
+
+}
+
+/* Selected State for Checkbox */
+#CB1:checked {
+  background-color: #f73c5c !important; /* Accent red for selected */
+  border-color: #ff9d00 !important;
+  margin-left: 10px;
+
+}
+#TI1, #TI2, #TIL {
+    font-size: clamp(16px, 2.5vw, 24px); /* Ensures text is readable */
+    padding: 10px;
+}
+
+#TI1::placeholder , #TI2::placeholder , #TIL::placeholder {
+font-size: calc(0.4em + 1.5vw);
+}
+/* Pop-Up (Sprite Object for Questions/Dialogs) */
+.sprite-Popup {
+  background-color: #f8f6f2; /* Neutral background */
+  border: 3px solid #7ed958; /* Secondary green border */
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 15px;
+  color: #081901;
+  font-size: 14px;
+}
+/* Social icons container */
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center images */
+    width: 100%;
+    max-width: 350px; /* Keeps everything inside a structured size */
+    padding: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.social-icons img {
+    width: clamp(100px, 10vw, 300px); /* Responsive scaling */
+    height: auto;
+    max-width: 100%; /* Prevents it from overflowing */
+}
+
+.social-icons span {
+    font-size: clamp(12px, 2vw, 18px); /* Ensures text scales properly */
+    text-align: center;
+    margin-top: 5px;
+}
+	
+}
+
+/* Question Box Background (9-patch object) */
+#Questionboxbg {
+  background-color: #f0f2f8; /* Neutral light blue */
+  border: 3px solid #5272ff; /* Primary blue border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centers the images */
+    align-items: center;
+    flex-wrap: wrap; /* Ensures images wrap correctly */
+    width: 100%; /* Adjust width dynamically */
+    gap: 10px; /* Adds spacing between images */
+}
+
+.social-icons img {
+    max-width: 20%; /* Ensures images scale with screen size */
+    height: auto;
+}
+
+/* Text Styles */
+h1, h2, h3 {
+  color: #081901; /* Dark text for headers */
+  font-family: "Playfair Display", serif; /* Elegant serif font for headings */
+  font-weight: 600;
+}
+
+p, span, label {
+  color: #253fb4; /* Subtle blue for body text */
+  font-family: "Poppins", sans-serif; /* Clean, modern font */
+}
+
+/* Link Styles */
+a {
+  color: #5272ff; /* Blue links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f73c5c; /* Red for hover state */
+}
+
+/* Additional Interactive Elements */
+button:hover, input:hover {
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Progress Bar */
+#ProgressBar {
+  background-color: #f8f6f2; /* Neutral background */
+  border-radius: 5px;
+}
+
+#ProgressBar .progress {
+  background-color: #7ed958; /* Secondary green */
+  height: 20px;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .option-buttons {
+        font-size: 4vw; /* Increase font size for smaller screens */
+    }
+
+    .prompt-text {
+        font-size: 3.5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .option-buttons {
+        font-size: 1.8vw; /* Slightly smaller for very large screens */
+    }
+
+    .prompt-text {
+        font-size: 1.6vw;
+    }
+}
+
+
