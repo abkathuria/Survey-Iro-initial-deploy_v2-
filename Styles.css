@@ -134,7 +134,7 @@ align-items: center; /* Centers text vertically */
     margin: 8px; /* Add spacing between checkbox elements */
     display: flex;
     align-items: center; 
-    font-size: min(max(12px, 0.8vw), 50px); /* Adjusts dynamically */
+    font-size: min(max(12px, 1vw), 50px); /* Adjusts dynamically */
     line-height: 1.4;
     word-wrap: break-word; /* Ensure long text wraps */
 }
