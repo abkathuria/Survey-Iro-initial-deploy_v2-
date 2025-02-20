@@ -127,10 +127,37 @@ align-items: center; /* Centers text vertically */
   height: 100%;
 
 }
-
 /* Checkboxes */
 #CB1, .checkbox {
-    padding: 10px ; /* Add padding inside checkboxes */
+    display: flex;
+    align-items: center;
+    font-size: clamp(16px, 2vw, 24px); /* Adjusts dynamically */
+    line-height: 1.4;
+    word-wrap: break-word; /* Ensure long text wraps */
+}
+
+/* Checkbox label styles */
+.checkbox label {
+    font-size: clamp(16px, 2vw, 24px); /* Ensures responsive scaling */
+    padding-left: 8px; /* Adds spacing between the checkbox and the text */
+    display: inline-block;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    #CB1, .checkbox label {
+        font-size: 4vw; /* Increase font size for smaller screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    #CB1, .checkbox label {
+        font-size: 1.8vw; /* Adjust for larger screens */
+    }
+}
+/* Checkboxes */
+/*#CB1, .checkbox {
+    padding: 10px ;  /*Add padding inside checkboxes */
     margin: 8px; /* Add spacing between checkbox elements */
     display: flex;
     align-items: center; 
@@ -155,7 +182,7 @@ align-items: center; /* Centers text vertically */
   border-color: #ff9d00 !important;
   margin-left: 10px;
 
-}
+}*/
 #TI1, #TI2, #TIL {
     font-size: clamp(16px, 2.5vw, 24px); /* Ensures text is readable */
     padding: 10px;
